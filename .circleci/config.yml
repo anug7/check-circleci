@@ -10,3 +10,6 @@ jobs:
           command: |
             echo "Running makefile"
             make
+      - run:
+          command: |
+            ./test
