@@ -2,11 +2,10 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: tsguna007/jp-512-nx
+      - image: tsguna007/jp-512-nx:latest
     steps:
       - checkout
       - run:
-        command: |
-          echo "Running makefile"
-          make
-
+          command: |
+            echo "Running makefile"
+            make
