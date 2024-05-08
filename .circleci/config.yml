@@ -3,6 +3,7 @@ jobs:
   build:
     docker:
       - image: tsguna007/jp-512-nx:latest
+    resource_class: arm.small
     steps:
       - checkout
       - run:
