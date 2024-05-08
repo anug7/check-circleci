@@ -9,7 +9,7 @@ jobs:
       - run:
           command: |
             echo "Running makefile"
-            make
+            make build
       - run:
           command: |
             ./test
